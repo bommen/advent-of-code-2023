@@ -38,9 +38,11 @@ foreach (var game in games)
                     break;
             }
         }
+
         gameIsPossible = gameIsPossible && !(red > 12 || green > 13 || blue > 14);
     }
-    var gamePower =(maxRed * maxGreen * maxBlue); 
+
+    var gamePower = maxRed * maxGreen * maxBlue;
     partTwo += gamePower;
     if (gameIsPossible) partOne += gameNumber;
     gameNumber++;
