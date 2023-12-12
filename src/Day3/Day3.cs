@@ -89,9 +89,3 @@ IEnumerable<int> GetPartNumbersFromLine(string[] input, int row, (int row, int c
 
     return partNumbers;
 }
-
-//
-//     ...
-//     .*.
-//     ...
-//
